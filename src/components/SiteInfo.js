@@ -9,7 +9,10 @@ margin: auto 0;
 `
 
 const SiteTitle = styled.div`
-font-weight: bold;
+letter-spacing: 3px;
+font-size: 32px;
+font: 65px 'Muli', Helvetica , Arial, sans-serif;
+color: #FFFAFA;
 `
 
 
