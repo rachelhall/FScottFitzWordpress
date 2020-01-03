@@ -1,5 +1,4 @@
 import React from "react"
-import MainMenu from "./MainMenu"
 import styled, { createGlobalStyle } from "styled-components"
 import Header from '../components/Header'
 const GlobalStyles = createGlobalStyle`
@@ -15,6 +14,7 @@ body {
 const LayoutWrapper = styled.div`
   max-width: 960px;
   margin: 0 auto;
+  padding: 10px;
 `
 
 const Layout = ({ children }) => (

@@ -11,7 +11,7 @@ min-height: 300px`
 const HeroHeading = styled.h1`
 font: 65px Muli,Helvetica,Arial,sans-serif;
     margin: 0 0 10px;
-    padding: 0;
+    padding: 10px;
     color: snow;
     font-weight: 100;`
 
