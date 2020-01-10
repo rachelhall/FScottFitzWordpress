@@ -9,6 +9,7 @@ const slash = require(`slash`)
 // create pages.
 // Will create pages for WordPress pages (route : /{slug})
 // Will create pages for WordPress posts (route : /post/{slug})
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
   createRedirect({
@@ -184,3 +185,5 @@ exports.createPages = ({ graphql, actions }) => {
       })
   })
 }
+
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
